@@ -1,4 +1,6 @@
-Vowel Length Contrasts in Deep Learning: Generative Adversarial Phonology and Duration is a research-oriented project exploring the use of GANs to model phonological contrasts in vowel duration. The system is designed to generate synthetic speech with controllable vowel length, supporting downstream linguistic analysis and phonological modeling.
+#Vowel Length Contrasts in Deep Learning: Generative Adversarial Phonology and Duration#
+
+Is a research-oriented project exploring the use of GANs to model phonological contrasts in vowel duration. The system is designed to generate synthetic speech with controllable vowel length, supporting downstream linguistic analysis and phonological modeling.
 
 🧠 Research Motivation
 Traditional phonological analysis often relies on handcrafted features and limited datasets. This project aims to bridge the gap between generative modeling and phonological theory by using deep learning to simulate vowel length contrasts across languages and dialects.
