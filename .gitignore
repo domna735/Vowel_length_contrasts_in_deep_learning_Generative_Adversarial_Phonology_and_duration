@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv*/
+$venvName/
+venv/
+env/
+
+# Local datasets / artifacts (too large for git)
+processed_data/
+language_mp3/
+runs/
+
+# Local language dataset folders
+Cantonese/
+Vietnamese/
+Thai/
+
+# Local plots/images (not needed in repo)
+聲頻圖/
+
+# TensorBoard + checkpoints (covered by runs/, kept explicit)
+**/events.out.tfevents.*
+**/*.ckpt
+
+# OS junk
+.DS_Store
+Thumbs.db
