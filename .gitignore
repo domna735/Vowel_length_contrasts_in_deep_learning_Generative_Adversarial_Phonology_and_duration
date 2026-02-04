@@ -12,7 +12,15 @@ env/
 # Local datasets / artifacts (too large for git)
 processed_data/
 language_mp3/
-runs/
+
+# Training / evaluation run artifacts (can be huge)
+runs/**
+
+# Keep shareable, lightweight outputs
+!runs/deliverables/
+!runs/deliverables/**
+!runs/plots/
+!runs/plots/**
 
 # Local language dataset folders
 Cantonese/
